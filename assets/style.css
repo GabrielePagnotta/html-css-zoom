@@ -45,7 +45,6 @@ footer{
 
 .icons{
     width:20%;
-    background-color: red;
     display: flex;
     align-items:center;
 
@@ -53,19 +52,30 @@ footer{
 
 .icons-middle{
     width: 80%;
-    background-color: red;
-    border: 1px solid black;
     margin:0 50px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     
 
 }
 
 /* icone */
-.fa-microphone, .fa-video{
+.fa-microphone, .fa-video, .fa-user-plus, .fa-user-group, .fa-chart-column, .fa-comment, .fa-record-vinyl, .fa-windows, .fa-ellipsis{
 font-size: 40px;
 padding:0px 10px;
 color: white;
+}
+
+
+.fa-share-from-square{
+    color: green;
+    padding: 0px 35px;
+    font-size: 40px;
+}
+
+.fa-record-vinyl{
+    padding:1px 14px;
 }
 
 
@@ -74,8 +84,32 @@ color: white;
     color: white;
 }
 
+.fa-user-group{
+    padding:0px 50px;
+}
+
+.fa-windows{
+    padding:0px 40px;   
+}
+
+.fa-ellipsis{
+    padding: 0px 45px;
+}
+
+
+
+.text-format-meeting{
+    height: 70px;
+    background-color: gray;
+    color:red;
+    font-size: 20px;
+    padding: 25px;
+    margin-left: 80px;
+}
+
 p{
-    text-align: center;
-    padding:5px;
+    /* text-align: center; */
+    padding:5px 10px;
     color:white;
 }
+
