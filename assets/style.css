@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    height:100vh;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+
+
+header{
+    background-color: black;
+    flex-grow: 1;
+}
+
+main{
+    background-color: black;
+    flex-grow:2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:center;
+    padding:0px 30px;
+}
+
+footer{
+    background-color:#202020;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards{
+    width:calc(100%/7 - 5px);
+    height:100px;
+    background-image: url(https://picsum.photos/200);
+    background-size: cover;
+    
+    
+}
+
+.icons{
+    width:calc(20%/2);
+    background-color: red;
+
+}
+
+.icons-middle{
+    width:70%;
+    background-color: red;
+
+}
