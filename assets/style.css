@@ -17,7 +17,7 @@ header{
     background-color: black;
     flex-grow: 1;
     display: flex;
-    background-color: red;
+    
 }
 
 main{
@@ -58,6 +58,7 @@ footer{
     width:20%;
     display: flex;
     align-items:center;
+    
 
 }
 
@@ -68,44 +69,14 @@ footer{
     align-items: center;
     justify-content: center;
     
+    
 
 }
 
-/* icons format */
-.fa-microphone, .fa-video, .fa-user-plus, .fa-user-group, .fa-chart-column, .fa-comment, .fa-record-vinyl, .fa-windows, .fa-ellipsis{
-font-size: 40px;
-padding:0px 10px;
-color: white;
-cursor: pointer;
-}
-
-/* icons margin */
-.fa-share-from-square{
-    color: green;
-    padding: 0px 35px;
-    font-size: 40px;
-}
-
-.fa-record-vinyl{
-    padding:1px 14px;
-}
-
-
-.fa-video{
-    margin:0px 15px;
-    color: white;
-}
-
-.fa-user-group{
-    padding:0px 50px;
-}
-
-.fa-windows{
-    padding:0px 40px;   
-}
-
-.fa-ellipsis{
-    padding: 0px 45px;
+/* icons main */
+main p{
+    color:white;
+    display: inline;
 }
 
 .fa-microphone-slash{
@@ -114,18 +85,60 @@ cursor: pointer;
 
 
 
-.text-format-meeting{
-    height: 70px;
-    background-color: gray;
-    color:red;
-    font-size: 20px;
-    padding: 25px;
-    margin-left: 80px;
+/* icons footer */
+
+.fa-microphone, .fa-video, .fa-user-plus, .fa-user-group, .fa-chart-column, .fa-comment, .fa-record-vinyl, .fa-windows, .fa-ellipsis{
+font-size: 30px;
+color: white;
+cursor: pointer;
+text-align: center;
+
 }
 
-p{
-    padding:5px 10px;
+.icons>div{
+    
+    text-align: center;
+    margin-left: 10px;
+    
+}
+
+.icons-middle>div{
+justify-content: center;
+text-align: center;
+margin:15px;
+}
+
+
+
+.fa-angle-up{
     color:white;
-    display: inline-block;
+    margin:15px;    
+}
+
+.fa-share-from-square{
+    font-size: 30px;
+    color:green;
+}
+
+
+
+footer p{
+    font-size: 15px;
+    color:white;
+    margin-top:10px;
+
+
+}
+
+.text-format-meeting{
+    color:red;
+    background-color: gray;
+    font-size: 20px;
+    padding: 15px;
+    
+}
+
+.align{
+    justify-content: flex-end;
 }
 
